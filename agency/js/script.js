@@ -1,4 +1,4 @@
-$(window).on("load", function () {
+$(window).on("load", function() {
 
     "use strict";
 
@@ -6,10 +6,10 @@ $(window).on("load", function () {
             Loading Timeout
      ====================================== */
 
-    setTimeout(function () {
+    setTimeout(function() {
         $('.preloader').fadeOut();
 
-        $('.cd-transition-layer').addClass('closing').delay(1000).queue(function () {
+        $('.cd-transition-layer').addClass('closing').delay(1000).queue(function() {
             $(this).removeClass("visible closing opening").dequeue();
         });
 
@@ -17,7 +17,7 @@ $(window).on("load", function () {
 
 });
 
-jQuery(function ($) {
+jQuery(function($) {
 
 
     "use strict";
@@ -28,7 +28,7 @@ jQuery(function ($) {
     ====================================== */
 
 
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
         if ($(this).scrollTop() > 220) { // Set position from top to add class
             $('header').addClass('header-appear');
         } else {
@@ -37,7 +37,7 @@ jQuery(function ($) {
     });
 
     //scroll to appear
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
         if ($(this).scrollTop() > 500)
             $('.scroll-top-arrow').fadeIn('slow');
         else
@@ -45,14 +45,14 @@ jQuery(function ($) {
     });
 
     //Click event to scroll to top
-    $(document).on('click', '.scroll-top-arrow', function () {
+    $(document).on('click', '.scroll-top-arrow', function() {
         $('html, body').animate({
             scrollTop: 0
         }, 800);
         return false;
     });
 
-    $(".scroll").on("click", function (event) {
+    $(".scroll").on("click", function(event) {
         event.preventDefault();
         $("html,body").animate({
             scrollTop: $(this.hash).offset().top - 60
@@ -60,14 +60,14 @@ jQuery(function ($) {
     });
 
 
-    $('.count').each(function () {
-        $(this).appear(function () {
+    $('.count').each(function() {
+        $(this).appear(function() {
             $(this).prop('Counter', 0).animate({
                 Counter: $(this).text()
             }, {
                 duration: 3000,
                 easing: 'swing',
-                step: function (now) {
+                step: function(now) {
                     $(this).text(Math.ceil(now));
                 }
             });
@@ -86,7 +86,7 @@ jQuery(function ($) {
             separator: ",",
             // The delay between the changing of each phrase in milliseconds.
             speed: 3000,
-            complete: function () {
+            complete: function() {
                 // Called after the entrance animation is executed.
             }
         });
@@ -97,15 +97,15 @@ jQuery(function ($) {
       Side Menu
      ====================================== */
 
-    $("#full-menu-1").on("click", function () {
+    $("#full-menu-1").on("click", function() {
         $(this).toggleClass("active");
         $(".nav-holder").toggleClass("active");
         $("body").toggleClass("overflow-hidden");
-    }), $(".nav-holder.main,.fullnav-close").on("click", function () {
+    }), $(".nav-holder.main,.fullnav-close").on("click", function() {
         $("#full-menu-1.active").removeClass("active");
         $(".nav-holder").removeClass("active");
         $("body").removeClass("overflow-hidden");
-    }), $(".nav-holder.alt").on("click", function (e) {
+    }), $(".nav-holder.alt").on("click", function(e) {
         if (!$(e.target).hasClass('link')) {
             $("#full-menu-1.active").removeClass("active");
             $(".nav-holder").removeClass("active");
@@ -136,16 +136,16 @@ jQuery(function ($) {
             TweenLite.set(a, {
                     xPercent: -50,
                     yPercent: -50
-                }), document.addEventListener("mousemove", function (t) {
+                }), document.addEventListener("mousemove", function(t) {
                     var n = window.pageYOffset || document.documentElement.scrollTop;
                     e.x = t.pageX, e.y = t.pageY - n
-                }), TweenLite.ticker.addEventListener("tick", function () {
+                }), TweenLite.ticker.addEventListener("tick", function() {
                     o || (t.x += (e.x - t.x) * n, t.y += (e.y - t.y) * n, TweenLite.set(a, {
                         x: t.x,
                         y: t.y
                     }))
                 }),
-                $(".animated-wrap").mouseenter(function (e) {
+                $(".animated-wrap").mouseenter(function(e) {
                     TweenMax.to(this, .3, {
                         scale: 2
                     }), TweenMax.to(a, .3, {
@@ -161,7 +161,7 @@ jQuery(function ($) {
                         scale: .5
                     }), o = !0
                 }),
-                $(".animated-wrap").mouseleave(function (e) {
+                $(".animated-wrap").mouseleave(function(e) {
                     TweenMax.to(this, .3, {
                         scale: 1
                     }), TweenMax.to(a, .3, {
@@ -179,7 +179,7 @@ jQuery(function ($) {
                         y: 0
                     }), o = !1
                 }),
-                $(".animated-wrap").mousemove(function (e) {
+                $(".animated-wrap").mousemove(function(e) {
                     var n, o, i, l, r, d, c, s, p, h, x, u, w, f, m;
                     n = e, o = 2, i = this.getBoundingClientRect(), l = n.pageX - i.left, r = n.pageY - i.top, d = window.pageYOffset || document.documentElement.scrollTop, t.x = i.left + i.width / 2 + (l - i.width / 2) / o, t.y = i.top + i.height / 2 + (r - i.height / 2 - d) / o, TweenMax.to(a, .3, {
                         x: t.x,
@@ -190,26 +190,26 @@ jQuery(function ($) {
                         ease: Power2.easeOut
                     })
                 }),
-                $(".hide-cursor,.btn,.tp-bullets").mouseenter(function (e) {
+                $(".hide-cursor,.btn,.tp-bullets").mouseenter(function(e) {
                     TweenMax.to("#cursor", .2, {
                         borderWidth: "1px",
                         scale: 2,
                         opacity: 0
                     })
-                }), $(".hide-cursor,.btn,.tp-bullets").mouseleave(function (e) {
+                }), $(".hide-cursor,.btn,.tp-bullets").mouseleave(function(e) {
                     TweenMax.to("#cursor", .3, {
                         borderWidth: "2px",
                         scale: 1,
                         opacity: 1
                     })
-                }), $(".link").mouseenter(function (e) {
+                }), $(".link").mouseenter(function(e) {
                     TweenMax.to("#cursor", .2, {
                         borderWidth: "0px",
                         scale: 3,
                         backgroundColor: "rgba(255, 255, 255, 0.27)",
                         opacity: .15
                     })
-                }), $(".link").mouseleave(function (e) {
+                }), $(".link").mouseleave(function(e) {
                     TweenMax.to("#cursor", .3, {
                         borderWidth: "2px",
                         scale: 1,
@@ -222,7 +222,7 @@ jQuery(function ($) {
 
     }
     if ($(window).width() > 991) {
-        setTimeout(function () {
+        setTimeout(function() {
             animatedCursor();
         }, 1000);
     }
@@ -253,7 +253,7 @@ jQuery(function ($) {
         items: 1,
         loop: true,
         nav: false,
-        autoplay: true,
+        autoplay: false,
         dots: true,
         dotsContainer: "#testimonials-avatar",
         autoplayTimeout: 6000,
@@ -271,7 +271,7 @@ jQuery(function ($) {
     });
 
 
-    $('[data-position]').each(function () {
+    $('[data-position]').each(function() {
         var position = $(this).data('position').split(',')
         $(this).css({
             top: position[0],
@@ -311,7 +311,7 @@ jQuery(function ($) {
 
     function dotCanvas() {
         var $blocks = $('[data-dots]');
-        $blocks.each(function () {
+        $blocks.each(function() {
             var $block = $(this);
             var block = $block[0];
             var $canvas = $("<canvas/>").appendTo($block);
@@ -335,7 +335,7 @@ jQuery(function ($) {
                 this.y = y;
                 this.distance = 7;
                 this.radians = 0;
-                this.draw = function () {
+                this.draw = function() {
                     ctx.beginPath();
                     ctx.strokeStyle = 'rgba(151, 151, 151, .28)';
                     ctx.moveTo(this.x + 3, this.y);
@@ -344,7 +344,7 @@ jQuery(function ($) {
                     ctx.lineTo(this.x + 6, this.y + 3);
                     ctx.stroke();
                 };
-                this.update = function () {
+                this.update = function() {
                     if (mouseX > -1) {
                         var k1 = mouseY - y;
                         var k2 = mouseX - x;
@@ -371,13 +371,13 @@ jQuery(function ($) {
                     circlesArray.push(new Circle(x, y));
                 }
             }
-            var loop = function () {
+            var loop = function() {
                 ctx.clearRect(0, 0, ctx.width, ctx.height);
                 for (var i = 0; i < circlesArray.length; i++) {
                     circlesArray[i].update();
                 }
             };
-            document.addEventListener('mousemove', function (e) {
+            document.addEventListener('mousemove', function(e) {
                 var parentOffset = $(canvas).parent().offset();
                 var relX = e.pageX - parentOffset.left;
                 var relY = e.pageY - parentOffset.top;
@@ -413,7 +413,7 @@ jQuery(function ($) {
         //set transitionBackground dimentions
         var transitionBackground = $('.cd-transition-layer .bg-layer');
         setLayerDimensions();
-        $(window).on('resize', function () {
+        $(window).on('resize', function() {
             if (!resize) {
                 resize = true;
                 (!window.requestAnimationFrame) ? setTimeout(setLayerDimensions, 300): window.requestAnimationFrame(setLayerDimensions);
@@ -472,7 +472,7 @@ jQuery(function ($) {
                 gapVertical: 15,
             }
         }],
-        defaultFilter: '*',
+        defaultFilter: '.silicon-case',
         animationType: 'fadeOutTop',
         gapHorizontal: 0,
         gapVertical: 0,
