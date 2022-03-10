@@ -1,16 +1,5 @@
     <!--Slider Start-->
     <section class="p-0 no-transition cursor-light" id="home">
-        <a target="_blank" class="btn btn-slider btn-rounded bg-light bg-light--color btn-blue btn-hvr-white home__link"
-            href="/mobilcsereprogram">Mobilcsere program
-            <div class="btn-hvr-setting">
-                <ul class="btn-hvr-setting-inner">
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                </ul>
-            </div>
-        </a>
         <h2 class="d-none">hidden</h2>
         <div class="rev_slider_wrapper fullscreen-container" data-alias="megaone-agency-1" data-source="gallery"
             id="rev_slider_17_1_wrapper" style="background:transparent;padding:0px;">
@@ -160,45 +149,61 @@
                             style="z-index: 15; min-width: 651px; max-width: 651px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
                             <?php if ($_SESSION["shop"] == "kaposvartesco"): ?>
                             <h4 class="tp-caption__h4">Kaposvár Tesco</h4>
-                            Ha értesülni szeretnél havi akcióinkról, vagy termékeink újítását kísérnéd figyelemmel,
-                            akkor kövess minket Facebook oldalunkon.
-                            Folyamatosan bővül kínáltunkat, legkorszerűbb termékeket láthatod a legszélesebb
-                            választékban!
+                            Nálunk biztosan megtalálod azt, ami az elképzeléseidben szerepel, hisz folyamatosan követjük
+                            az
+                            aktuális trendeket. Minőségi termékek hatalmas választéka már több városban is. <br>
+                            Értesülj elsőként akcióinkról, újdonságainkról, jelenlegi kínálatunkról! Kövess minket
+                            Facebookon,
+                            ahol láthatod folyamatosan bővülő termékpalettánkat. Ne maradj le!
                             <?php endif;?>
                             <?php if ($_SESSION["shop"] == "kaposvarplaza"): ?>
                             <h4 class="tp-caption__h4">Kaposvár Plaza</h4>
-                            Ha értesülni szeretnél havi akcióinkról, vagy termékeink újítását kísérnéd figyelemmel,
-                            akkor kövess minket Facebook oldalunkon.
-                            Folyamatosan bővül kínáltunkat, legkorszerűbb termékeket láthatod a legszélesebb
-                            választékban!
+                            Nálunk biztosan megtalálod azt, ami az elképzeléseidben szerepel, hisz folyamatosan követjük
+                            az
+                            aktuális trendeket. Minőségi termékek hatalmas választéka már több városban is. <br>
+                            Értesülj elsőként akcióinkról, újdonságainkról, jelenlegi kínálatunkról! Kövess minket
+                            Facebookon,
+                            ahol láthatod folyamatosan bővülő termékpalettánkat. Ne maradj le!
                             <?php endif;?>
                             <?php if ($_SESSION["shop"] == "keszthely"): ?>
                             <h4 class="tp-caption__h4">Keszthely</h4>
-                            Ha értesülni szeretnél havi akcióinkról, vagy termékeink újítását kísérnéd figyelemmel,
-                            akkor kövess minket Facebook oldalunkon.
-                            Folyamatosan bővül kínáltunkat, legkorszerűbb termékeket láthatod a legszélesebb
-                            választékban!
+                            Nálunk biztosan megtalálod azt, ami az elképzeléseidben szerepel, hisz folyamatosan követjük
+                            az
+                            aktuális trendeket. Minőségi termékek hatalmas választéka már több városban is.
+                            <br>
+                            Értesülj elsőként akcióinkról, újdonságainkról, jelenlegi kínálatunkról! Kövess minket
+                            Facebookon,
+                            ahol láthatod folyamatosan bővülő termékpalettánkat. Ne maradj le!
                             <?php endif;?>
                             <?php if ($_SESSION["shop"] == "tapolca"): ?>
                             <h4 class="tp-caption__h4">Tapolca</h4>
-                            Ha értesülni szeretnél havi akcióinkról, vagy termékeink újítását kísérnéd figyelemmel,
-                            akkor kövess minket Facebook oldalunkon.
-                            Folyamatosan bővül kínáltunkat, legkorszerűbb termékeket láthatod a legszélesebb
-                            választékban!
+                            Nálunk biztosan megtalálod azt, ami az elképzeléseidben szerepel, hisz folyamatosan követjük
+                            az
+                            aktuális trendeket. Minőségi termékek hatalmas választéka már több városban is.
+                            <br>
+                            Értesülj elsőként akcióinkról, újdonságainkról, jelenlegi kínálatunkról! Kövess minket
+                            Facebookon,
+                            ahol láthatod folyamatosan bővülő termékpalettánkat. Ne maradj le!
                             <?php endif;?>
                             <?php if ($_SESSION["shop"] == "zalaegerszeg"): ?>
                             <h4 class="tp-caption__h4">Zalaegerszeg</h4>
-                            Ha értesülni szeretnél havi akcióinkról, vagy termékeink újítását kísérnéd figyelemmel,
-                            akkor kövess minket Facebook oldalunkon.
-                            Folyamatosan bővül kínáltunkat, legkorszerűbb termékeket láthatod a legszélesebb
-                            választékban!
+                            Nálunk biztosan megtalálod azt, ami az elképzeléseidben szerepel, hisz folyamatosan követjük
+                            az
+                            aktuális trendeket. Minőségi termékek hatalmas választéka már több városban is.
+                            <br>
+                            Értesülj elsőként akcióinkról, újdonságainkról, jelenlegi kínálatunkról! Kövess minket
+                            Facebookon,
+                            ahol láthatod folyamatosan bővülő termékpalettánkat. Ne maradj le!
                             <?php endif;?>
                             <?php if ($_SESSION["shop"] == "balatonboglar"): ?>
                             <h4 class="tp-caption__h4">Balatonboglár</h4>
-                            Ha értesülni szeretnél havi akcióinkról, vagy termékeink újítását kísérnéd figyelemmel,
-                            akkor kövess minket Facebook oldalunkon.
-                            Folyamatosan bővül kínáltunkat, legkorszerűbb termékeket láthatod a legszélesebb
-                            választékban!
+                            Nálunk biztosan megtalálod azt, ami az elképzeléseidben szerepel, hisz folyamatosan követjük
+                            az
+                            aktuális trendeket. Minőségi termékek hatalmas választéka már több városban is.
+                            <br>
+                            Értesülj elsőként akcióinkról, újdonságainkról, jelenlegi kínálatunkról! Kövess minket
+                            Facebookon,
+                            ahol láthatod folyamatosan bővülő termékpalettánkat. Ne maradj le!
                             <?php endif;?>
                         </div>
 
@@ -315,7 +320,6 @@
 
                             <?php endif?>
 
-
                         </div>
 
                         <!-- LAYER NR. 13 -->
@@ -359,15 +363,48 @@
     <section class="pb-0" id="about-us">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 wow fadeInLeft">
+                <div class="col-lg-12 wow fadeInLeft">
                     <div class="heading-area">
                         <!-- <span class="sub-title">We are megaone company</span> -->
                         <h2 class="title">Rólunk</h2>
-                        <p class="para about-us__p">Cégünk 2000 óta foglalkozik mobiltelefonok adás-vétel,csere,
-                            szervizével a dunántúli régióban. Üzleteinkben tartozékok, és kiegészítők széles választékát
-                            kínáljuk azonnal raktárról. 20 éves évfordulónkon megújult arculattal, és új profilokkal
-                            jelentünk meg a piacon, melynek keretében laptopok adás-vételével, és nyomtatókellékek
-                            forgalmazásával bővültünk.</p>
+                        <p class="para about-us__p">Cégünk 2000 óta foglalkozik mobiltelefon adás-vétel, csere, szerviz
+                            szolgáltatással a dunántúli
+                            régióban. Üzleteinkben tartozékok és kiegészítők széles választékát kínáljuk azonnal,
+                            raktárról. 20
+                            éves évfordulónkon megújult arculattal és új profilokkal jelentünk meg a piacon, melynek
+                            keretében laptopok adás-vételével, és nyomtatókellékek forgalmazásával bővültünk..</p>
+
+                        <p class="para about-us__p">Bármilyen használt laptop és mobiltelefon adás-vétel-cseréjével
+                            foglalkozunk.</p>
+
+                        <p class="para about-us__p">Üzleteinkben új mobiltelefon készülékek is megtalálhatók hatalmas
+                            választékban, egészen a régi,
+                            jól megszokott nyomógombosoktól a leginnovatívabb felsőkategóriás újdonságokig. Pár ismert
+                            márka, ami megtalálható nálunk: Apple, Samsung, Huawei, Xiaomi, Motorola, Nokia, stb.</p>
+
+                        <p class="para about-us__p">A mobiltelefonokon felül tartozékokban is nagyon széles választékkal
+                            rendelkezünk, ami azt jelenti,
+                            hogy nem kell napokig vagy hetekig nélkülöznie mobiltelefonját, azonnal hozzájuthat az adott
+                            tartozékhoz, legyen az akár régi típusú vagy alacsonyabb kategóriás modern, de annál
+                            közkedveltebb
+                            telefon típus.</p>
+
+                        <p class="para about-us__p">A tartozékokon és új készülékeken kívül jó állapotú, használt
+                            mobiltelefonok széles választéka is
+                            helyben megtalálható nálunk, amit azonnal használatba tud venni.</p>
+
+                        <p class="para about-us__p">Amennyiben bizonytalan, vagy bármilyen kérdése merülne fel a
+                            készülékekkel vagy annak megfelelő
+                            kiválasztásával kapcsolatban, a legjobb helyen jár, ugyanis munkatársaink régre nyúló
+                            tapasztalattal
+                            rendelkeznek, szívesen nyújtanak technikai segítséget, valamint a kiválasztáshoz is az Ön
+                            igényeire
+                            szabottan, célorientáltan tudnak segítséget nyújtani, legyen akár egy telefoncsere,
+                            telefonvásárlás
+                            vagy tartozék kiválasztása.</p>
+
+                        <p class="para about-us__p"><strong>Lépjen velünk kapcsolatba!</strong></p>
+                        <p class="para about-us__p">Munkatársaink szívesen nyújtanak Önnek szakmai segítséget.</p>
                         <!-- <a class="btn btn-large btn-rounded btn-pink btn-hvr-blue mt-3" href="javascript:void(0);">Learn
                             More
                             <div class="btn-hvr-setting">
@@ -381,11 +418,11 @@
                         </a> -->
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInRight">
+                <!-- <div class="col-lg-6 wow fadeInRight">
                     <div class="half-img mt-5 pt-4 mt-lg-0 pt-lg-0">
                         <img alt="vector" src="karaKrisz/img/about.jpg">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -398,14 +435,13 @@
                 <div class="col-md-3">
                     <div class="process-wrapp">
                         <span class="pro-step blue"><i aria-hidden="true" class="fas fa-cog"></i></span>
-                        <h4 class="service-heading">Több mint 20 év tapasztalat</h4>
+                        <h4 class="service-heading">Több, mint 20 év tapasztalat</h4>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="process-wrapp">
                         <span class="pro-step blue"><i aria-hidden="true" class="fas fa-cog"></i></span>
-                        <h4 class="service-heading">Új és használt készülékek
-                            adás-vétel és csere</h4>
+                        <h4 class="service-heading">Új és használt készülékek adás-vétel és csere</h4>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -418,8 +454,8 @@
                 <div class="col-md-3">
                     <div class="process-wrapp">
                         <span class="pro-step blue"><i aria-hidden="true" class="fas fa-cog"></i></span>
-                        <h4 class="service-heading">Tartozékok, kiegészítők, széles választékban, azonnal raktár
-                            készletről</h4>
+                        <h4 class="service-heading">Tartozékok és kiegészítők széles választéka azonnal,
+                            raktárkészletről</h4>
                     </div>
                 </div>
             </div>
@@ -583,7 +619,6 @@
         </div>
     </section>
     <!--Parallax End-->
-
     <!--Banner Start-->
     <section class="page-title cursor-light">
         <!-- Pattern Layers -->
@@ -1037,533 +1072,8 @@
         </div>
     </section>
     <!--Blog End-->
-
-    <!--Portfolio Start-->
-    <section class="cube-portfolio1 text-center no-transition d-none" id="portfolio">
-        <div class="container">
-            <!--Row-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="heading-area mx-570 mb-lg-4 mb-3">
-                        <span class="sub-title">Tekintsd meg,</span>
-                        <h2 class="title">Üzletünkben található<span class="alt-color js-rotating">kábeleket, szilikon
-                                tokokat,üvegfóliákat</span> nálunk a legszélesebb
-                            választékban <strong>azonnal</strong> raktáron</h2>
-                    </div>
-                </div>
-            </div>
-            <!--Row-->
-            <div class="row wow fadeIn">
-                <div class="col-md-12">
-
-                    <!--Portfolio Filters-->
-                    <div class="cbp-l-filters-button" id="js-filters-mosaic-flat">
-
-                        <div class="cbp-filter-item-active cbp-filter-item" data-filter=".silicon-case">Szilikon tokok
-                        </div>
-                        <span class="text-blue">/</span>
-                        <div class="cbp-filter-item" data-filter=".book-case">Könyvtokok</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".sec-case">Biztonsági tokok</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".smart-case">Okostokok</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".glass">Üvegfóliák</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".3d-glass">3D Üvegfóliák</div>
-                        <span class="text-blue"> / </span>
-                        <div class="cbp-filter-item" data-filter=".foil">Fóliák</div>
-                    </div>
-
-                    <!--Portfolio Items-->
-                    <div class="cbp cbp-l-grid-mosaic-flat" id="js-grid-mosaic-flat">
-
-                        <div class="cbp-item silicon-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/silicon-case/silicon-case.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/silicon-case/silicon-case.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Szilikon tok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item silicon-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/silicon-case/silicon-case-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/silicon-case/silicon-case-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Szilikon tok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item silicon-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/silicon-case/silicon-case-3.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/silicon-case/silicon-case-3.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Szilikon tok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item silicon-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/silicon-case/silicon-case-4.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/silicon-case/silicon-case-4.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Szilikon tok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item silicon-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/silicon-case/silicon-case-5.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/silicon-case/silicon-case-5.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Szilikon tok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item silicon-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/silicon-case/silicon-case-6.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/silicon-case/silicon-case-6.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Szilikon tok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item silicon-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/silicon-case/silicon-case-7.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/silicon-case/silicon-case-7.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Szilikon tok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item book-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/book-case/book_case.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/book-case/book_case.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Könyvtokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item book-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/book-case/book_case-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/book-case/book_case-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Könyvtokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item book-case">
-                            <a class="cbp-caption cbp-lightbox" href="/karaKrisz/img/book-case/book-case-3.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="/karaKrisz/img/book-case/book-case-3.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Könyvtokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item book-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/book-case/book-case-4.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/book-case/book-case-4.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Könyvtokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item sec-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/security-case/security-cases.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/security-case/security-cases.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Biztonsági tokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item sec-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/security-case/security-cases-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/security-case/security-cases-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Biztonsági tokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item sec-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/security-case/security-cases-3.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/security-case/security-cases-3.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Biztonsági tokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item sec-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/security-case/security-cases-4.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/security-case/security-cases-4.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Biztonsági tokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item smart-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/smart-case/smart-cover.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/smart-case/smart-cover.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Okostokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item smart-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/smart-case/smart-cover-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/smart-case/smart-cover-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Okostokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item smart-case">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/smart-case/smart-cover-3.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/smart-case/smart-cover-3.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Okostokok</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/mobile-glass/mobile-glass.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/mobile-glass/mobile-glass.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/mobile-glass/mobile-glass-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/mobile-glass/mobile-glass-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/mobile-glass/mobile-glass-3.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/mobile-glass/mobile-glass-3.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/mobile-glass/mobile-glass-4.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/mobile-glass/mobile-glass-4.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item 3d-glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/3D-glass/mobile-3d-glass.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/3D-glass/mobile-3d-glass.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">3D Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item 3d-glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/3D-glass/mobile-3d-glass-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/3D-glass/mobile-3d-glass-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">3D Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item 3d-glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/3D-glass/mobile-3d-glass-3.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/3D-glass/mobile-3d-glass-3.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">3D Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item 3d-glass">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/3D-glass/mobile-3d-glass-4.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/3D-glass/mobile-3d-glass-4.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">3D Üvegfóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item foil">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/foil/mobile-foil.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/foil/mobile-foil.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Fóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="cbp-item foil">
-                            <a class="cbp-caption cbp-lightbox" href="karaKrisz/img/foil/mobile-foil-2.jpg">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img alt="port-1" src="karaKrisz/img/foil/mobile-foil-2.jpg">
-                                </div>
-                                <div class="cbp-caption-activeWrap"></div>
-                                <div class="cbp-l-caption-alignCenter center-block">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="plus"></div>
-                                        <h5 class="text-white mb-1">Fóliák</h5>
-                                        <p class="text-white">Connecttel GSM</p>
-                                    </div>
-                                </div>
-
-                            </a>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Portfolio End-->
-
     <!--Testimonial Start-->
-    <section class="gradient-bg1 text-center" id="shop">
+    <section class="gradient-bg1 text-center">
         <div class="container">
 
             <!--Row-->
@@ -1586,14 +1096,17 @@
 
                             <form action="/shop/session/kaposvartesco" method="POST">
 
-                                <p class="para"> Üzletünket a Kaposvári Tescoban, a feltüntetett nyitvatartási időben
-                                    látogathatod. Esetleg ha valamilyen termékkel kapcsolatos kérdés merülne fel, keress
-                                    rá bátran Facebook oldalunkra, a Connecttel Kaposvár címen és írj üzenetet. Vagy
-                                    telefonon is érdeklődhetsz! Köszönjük, hogy meglátogattad oldalunkat! </p>
-                                <h5 class="name gradient-text1">Kaposvár Tesco</h5>
+                                <p class="para">Húzd el oldalra ezt, és válaszd ki a hozzád legközelebb eső üzletünket!
+                                    <br>
+                                    Üzletünket Kaposváron, a
+                                    Tesco plexi üzletsorán találod. <br> Cím: 7400 Kaposvár, Berzsenyi u. 13 <br>
+                                    Nyitva tartás: Hétfő-Szombat: 08:00-20:00, Vasárnap: 08:00-19:00 <br>
+                                    Telefonszám: <a class="color-w" href="tel:+36203441288">+36 20 344 1288</a>
+                                </p>
+                                <h5 class="name">Kaposvár Tesco</h5>
 
                                 <input type="hidden" name="event" id="event" value="kaposvartesco">
-                                <button type="submit" class="testimonial__btn btn bg-light flashit">Irány az
+                                <button type="submit" class="testimonial__btn btn bg-light">Irány az
                                     üzlet</button>
 
                             </form>
@@ -1612,14 +1125,17 @@
 
                             <form action="/shop/session/keszthely" method="POST">
 
-                                <p class="para"> Üzletünket Keszthelyen, a feltüntetett nyitvatartási időben
-                                    látogathatod. Esetleg ha valamilyen termékkel kapcsolatos kérdés merülne fel, keress
-                                    rá bátran Facebook oldalunkra, a Connecttel Keszthely címen és írj üzenetet. Vagy
-                                    telefonon is érdeklődhetsz! Köszönjük, hogy meglátogattad oldalunkat! </p>
-                                <h5 class="name gradient-text1">Keszthely Tesco</h5>
+                                <p class="para"> Húzd el oldalra ezt, és válaszd ki a hozzád legközelebb eső üzletünket!
+                                    <br>
+                                    Üzletünket Keszthelyen, a
+                                    Tesco plexi üzletsorán találod. <br> Cím: 8360 Keszthely, Csapás út 27 <br>
+                                    Nyitva tartás: Hétfő-Szombat: 9:00-20:00, Vasárnap: 9:00-19:00 <br>
+                                    Telefonszám: <a class="color-w" href="tel:+36205162367">+36 20 516 2367</a>
+                                </p>
+                                <h5 class="name">Keszthely Tesco</h5>
 
                                 <input type="hidden" name="event" id="event" value="keszthely">
-                                <button type="submit" class="testimonial__btn btn bg-light flashit">Irány az
+                                <button type="submit" class="testimonial__btn btn bg-light">Irány az
                                     üzlet</button>
 
                             </form>
@@ -1639,12 +1155,14 @@
 
                             <form action="/shop/session/balatonboglar" method="POST">
 
-                                <p class="para"> Üzletünket a Balatonboglári Tescoban, a feltüntetett nyitvatartási
-                                    időben látogathatod. Esetleg ha valamilyen termékkel kapcsolatos kérdés merülne fel,
-                                    keress rá bátran Facebook oldalunkra, a Connecttel Balatonboglár címen és írj
-                                    üzenetet. Vagy telefonon is érdeklődhetsz! Köszönjük, hogy meglátogattad oldalunkat!
+                                <p class="para"> Húzd el oldalra ezt, és válaszd ki a hozzád legközelebb eső üzletünket!
+                                    <br>
+                                    Üzletünket Balatonbogláron, a
+                                    Tesco plexi üzletsorán találod. <br> Cím: 8630 Balatonboglár Klapka utca 30 <br>
+                                    Nyitva tartás: Hétfő-Szombat: 9:00-20:00, Vasárnap: 9:00-19:00 <br>
+                                    Telefonszám: <a class="color-w" href="tel:+36303871111">+3630 387 1111</a>
                                 </p>
-                                <h5 class="name gradient-text1">Balatonboglár Tesco</h5>
+                                <h5 class="name">Balatonboglár Tesco</h5>
 
                                 <input type="hidden" name="event" id="event" value="balatonboglar">
                                 <button class="testimonial__btn btn bg-light">Irány az üzlet</button>
@@ -1665,11 +1183,14 @@
 
                             <form action="/shop/session/kaposvarplaza" method="POST">
 
-                                <p class="para"> Üzletünket a Kaposvári Plázában, a feltüntetett nyitvatartási időben
-                                    látogathatod. Esetleg ha valamilyen termékkel kapcsolatos kérdés merülne fel, keress
-                                    rá bátran Facebook oldalunkra, a Connecttel Kaposvár címen és írj üzenetet. Vagy
-                                    telefonon is érdeklődhetsz! Köszönjük, hogy meglátogattad oldalunkat! </p>
-                                <h5 class="name gradient-text1">Kaposvár Pláza</h5>
+                                <p class="para"> Húzd el oldalra ezt, és válaszd ki a hozzád legközelebb eső üzletünket!
+                                    <br>
+                                    Üzletünket Kaposváron, a
+                                    Plaza üzletsorán találod. <br> Cím: 7400 Kaposvár, Berzsenyi u. 1-3 <br>
+                                    Nyitva tartás: Hétfő-Szombat: 09:00-20:00, Vasárnap: 10:00-18:00 <br>
+                                    Telefonszám: <a class="color-w" href="tel:+36208027222">+36 20 802 7222</a>
+                                </p>
+                                <h5 class="name">Kaposvár Pláza</h5>
 
                                 <input type="hidden" name="event" id="event" value="kaposvarplaza">
                                 <button class="testimonial__btn btn bg-light">Irány az üzlet</button>
@@ -1690,11 +1211,14 @@
 
                             <form action="/shop/session/kaposvartesco" method="POST">
 
-                                <p class="para"> Üzletünket a Kaposvári Tescoban, a feltüntetett nyitvatartási időben
-                                    látogathatod. Esetleg ha valamilyen termékkel kapcsolatos kérdés merülne fel, keress
-                                    rá bátran Facebook oldalunkra, a Connecttel Kaposvár címen és írj üzenetet. Vagy
-                                    telefonon is érdeklődhetsz! Köszönjük, hogy meglátogattad oldalunkat! </p>
-                                <h5 class="name gradient-text1">Kaposvár Tesco</h5>
+                                <p class="para"> Húzd el oldalra ezt, és válaszd ki a hozzád legközelebb eső üzletünket!
+                                    <br>
+                                    Üzletünket Kaposváron, a
+                                    Tesco plexi üzletsorán találod. <br> Cím: 7400 Kaposvár, Berzsenyi u. 13 <br>
+                                    Nyitva tartás: Hétfő-Szombat: 08:00-20:00, Vasárnap: 08:00-19:00 <br>
+                                    Telefonszám: <a class="color-w" href="tel:+36203441288">+36 20 344 1288</a>
+                                </p>
+                                <h5 class="name">Kaposvár Tesco</h5>
 
                                 <input type="hidden" name="event" id="event" value="kaposvartesco">
                                 <button class="testimonial__btn btn bg-light">Irány az üzlet</button>
@@ -1713,7 +1237,7 @@
 
                         <div class="item item--d-none">
                             <p class="para"> test 5</p>
-                            <h5 class="name gradient-text1">David Villas</h5>
+                            <h5 class="name">David Villas</h5>
                             <span class="designation">Designer, Company Name</span>
                             <ul class="ratings list-unstyled">
                                 <li><i aria-hidden="true" class="fas fa-star"></i></li>
@@ -1728,11 +1252,14 @@
 
                             <form action="/shop/session/zalaegerszeg" method="POST">
 
-                                <p class="para"> Üzletünket a Zalaegerszegen, a feltüntetett nyitvatartási időben
-                                    látogathatod. Esetleg ha valamilyen termékkel kapcsolatos kérdés merülne fel, keress
-                                    rá bátran Facebook oldalunkra, a Connecttel Zalaegerszeg címen és írj üzenetet. Vagy
-                                    telefonon is érdeklődhetsz! Köszönjük, hogy meglátogattad oldalunkat! </p>
-                                <h5 class="name gradient-text1">Zalaegerszeg Tesco</h5>
+                                <p class="para">Húzd el oldalra ezt, és válaszd ki a hozzád legközelebb eső üzletünket!
+                                    <br>
+                                    Üzletünket Zalaegerszegen, a
+                                    Tesco plexi üzletsorán találod. <br> Cím: 8900 Zalaegerszeg Sport utca 1 <br>
+                                    Nyitva tartás: Hétfő-Szombat: 9:00-20:00, Vasárnap: 9:00-19:00 <br>
+                                    Telefonszám: <a class="color-w" href="tel:+36203961850">+36 20 396 1850</a>
+                                </p>
+                                <h5 class="name">Zalaegerszeg Tesco</h5>
 
                                 <input type="hidden" name="event" id="event" value="zalaegerszeg">
                                 <button class="testimonial__btn btn bg-light">Irány az üzlet</button>
@@ -1752,11 +1279,15 @@
 
                             <form action="/shop/session/tapolca" method="POST">
 
-                                <p class="para"> Üzletünket a Tapolcán, a feltüntetett nyitvatartási időben
-                                    látogathatod. Esetleg ha valamilyen termékkel kapcsolatos kérdés merülne fel, keress
-                                    rá bátran Facebook oldalunkra, a Connecttel Tapolca címen és írj üzenetet. Vagy
-                                    telefonon is érdeklődhetsz! Köszönjük, hogy meglátogattad oldalunkat! </p>
-                                <h5 class="name gradient-text1">Tapolca Tesco</h5>
+                                <p class="para">
+                                    Húzd el oldalra ezt, és válaszd ki a hozzád legközelebb eső üzletünket! <br>
+                                    Üzletünket
+                                    Tapolcán, a Tesco
+                                    plexi üzletsorán találod. <br> Cím: 8300 Tapolca Veszprémi út 5 <br>
+                                    Nyitva tartás: Hétfő-Szombat: 9:00-20:00, Vasárnap: 9:00-17:00 <br>
+                                    Telefonszám: <a class="color-w" href="tel:+36205796654">+36 20 579 6654</a>
+                                </p>
+                                <h5 class="name">Tapolca Tesco</h5>
 
                                 <input type="hidden" name="event" id="event" value="tapolca">
                                 <button class="testimonial__btn btn bg-light">Irány az üzlet</button>
@@ -1781,8 +1312,8 @@
             <div class="owl-dots" id="testimonials-avatar">
                 <!--data-position[top,right,bottom,left]-->
                 <button class="owl-dot active owl-dot--d-none" data-position="22%,auto,auto,5%">
-                    <img alt="image" src="karaKrisz/img/shop/keszthely.jpg"></button>
-
+                    <img alt="image" src="karaKrisz/img/shop/keszthely.jpg">
+                </button>
                 <button class="owl-dot active" data-position="30%,auto,auto,16%">
                     <img alt="image" src="karaKrisz/img/shop/keszthely.png"></button>
 
@@ -1806,8 +1337,46 @@
                     <img alt="image" src="karaKrisz/img/shop/tapolca.png"></button>
             </div>
         </div>
+
+        <div class="shop__icon-box">
+            <h4> Mobilcsere program elérhető <br> az alábbi üzletekben</h4>
+            <a class="scroll" href="#mobilcsere"><i class="fa fa-angle-down flashit"></i></a>
+        </div>
+
+
     </section>
     <!--Testimonial End-->
+
+    <section id="mobilcsere" class="blog-single blog-single--formating">
+
+        <div class="post-details alt-font">
+
+            <span class="post-categories">
+                <form action="/shop/session/kaposvarplaza" method="POST">
+                    <input type="hidden" name="event" id="event" value="kaposvarplaza">
+                    <button class=" btn">Kaposvár Pláza</button>
+                </form>
+                <form action="/shop/session/kaposvartesco" method="POST">
+                    <input type="hidden" name="event" id="event" value="kaposvartesco">
+                    <button class=" btn">Kaposvár Tesco</button>
+                </form>
+                <form action="/shop/session/balatonboglar/mobilcsere" method="POST">
+                    <input type="hidden" name="event" id="event" value="balatonboglar">
+                    <button class=" btn">Balatonboglár Tesco</button>
+                </form>
+                <form action="/shop/session/zalaegerszeg" method="POST">
+                    <input type="hidden" name="event" id="event" value="zalaegerszeg">
+                    <button class=" btn">Zalaegerszeg Tesco</button>
+                </form>
+            </span>
+
+            <span class="post-author"><a>Mobilcsere program</a></span>
+            <span class="post-separator">/</span>
+            <span class="post-date">Elindult Február 14, 2022</span>
+
+        </div>
+
+    </section>
 
     <!--Blog Start-->
     <section class="bg-light d-none" id="blog">

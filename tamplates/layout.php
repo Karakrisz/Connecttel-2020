@@ -10,8 +10,7 @@
     <meta name="description" content="Ha értesülni szeretnél havi akcióinkról, vagy termékeink újítását kísérnéd figyelemmel,
         akkor kövess minket. Folyamatosan bővül kínáltunk, legkorszerűbb termékeket láthatod a legkedvezőbb áron!">
     <!-- keywords -->
-    <meta name="keywords"
-        content="Kaposvár, Szilikon tok, adatkábel, könyv tok, iPhone gyári töltő, autóstartó, okostok, biztonsági tok, mobiletelefonok, használt telefon, új telefon, üvegfólia, 5d üveg fólia">
+    <meta name="keywords" content="Kaposvár, Szilikon tok, adatkábel, könyv tok, iPhone gyári töltő, autóstartó, okostok, biztonsági tok, mobiletelefonok, használt telefon, új telefon, üvegfólia, 5d üveg fólia">
     <title><?php echo 'Connecttel GSM - ' . $title;  ?></title>
     <!-- Favicon -->
     <link href="agency/img/favicon.ico" rel="icon">
@@ -26,7 +25,6 @@
     <!-- Style Sheet -->
     <link href="agency/css/style.css" rel="stylesheet">
     <link href="karaKrisz/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body data-offset="90" data-spy="scroll" data-target=".navbar">

@@ -30,9 +30,6 @@
                         <a class="nav-link link scroll" href="#about-us">Rólunk</a>
                         <a class="nav-link link scroll" href="#portfolio">Galléria</a>
                         <a class="nav-link link scroll" href="#shop">Üzleteink</a>
-                        <a class="nav-link link scroll flashit_nav-link nav-link__formating"
-                            href="/mobilcsereprogram">Mobilcsere
-                            program</a>
                         <a class="nav-link link scroll" href="#blog">Blog</a>
                         <a class="nav-link link scroll" href="#contact">Kapcsolat</a>
                         <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>

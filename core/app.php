@@ -19,9 +19,6 @@ route('/shop/session/tapolca', 'shopSessionController', "POST");
 route('/shop/session/zalaegerszeg', 'shopSessionController', "POST");
 route('/shop/session/balatonboglar', 'shopSessionController', "POST");
 
-route('/mobilcsereprogram', 'mobileChangeController');
-route('/csereprogram', 'mobileChangeChoiceController');
-
 
 list($view, $data) = dispatch($cleaned, 'notFoundController');
 if (preg_match("%^redirect\:%", $view)) {

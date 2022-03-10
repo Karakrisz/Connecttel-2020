@@ -56,6 +56,49 @@
     font-size: 15px !important;
 }
 
+h5.name {
+    color: white;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+p.para {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+div#slide-43-layer-14 {
+    top: 50px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+a.btn.btn-slider.btn-rounded.bg-light.bg-light--color.btn-blue.btn-hvr-white {
+    top: 80px;
+    position: relative;
+}
+
+.para.about-us__p {
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.col-lg-6.wow.fadeInRight {
+    display: flex;
+    align-items: center;
+}
+
+section#about-us {
+    text-align: center;
+}
+
+.para.about-us__p {
+    margin-top: 40px;
+    font-weight: 400;
+}
+
 
 /******************** Animation start **********************/
 
@@ -406,5 +449,10 @@ td:first-of-type {
     }
     .home__link {
         display: block;
+    }
+    .tp-caption__h4 {
+        margin: 10px 0 4im;
+        margin: 30px 0 !important;
+        top: 10px;
     }
 }
